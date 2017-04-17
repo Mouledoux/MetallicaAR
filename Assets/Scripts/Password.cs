@@ -18,6 +18,11 @@ public class Password : MonoBehaviour
     {
         if (m_Input.text == m_Password)
             OnCorrectPassword.Invoke();
+        else
+        {
+            m_Input.text = null;
+            m_Input.placeholder.GetComponent<Text>().text = "Incorrect";
+        }
     }
 
 
