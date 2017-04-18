@@ -51,4 +51,9 @@ public class UIUtilities : MonoBehaviour
     {
         aObject.SetActive(false);
     }
+
+    public void OpenWebsite(string url)
+    {
+        Application.OpenURL(url);
+    }
 }
