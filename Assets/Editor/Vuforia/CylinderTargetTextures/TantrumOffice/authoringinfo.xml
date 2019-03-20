@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VuforiaUnityInfo version="7.0">
+    <TargetSet version="5.0" toolVersion="2.7.4">
+        <CylinderTarget name="Ramie" version="3.0" targetId="cf81c3dfed7245958f721ae5e5b93e55" sideLength="8.000000" topDiameter="10.000000" bottomDiameter="10.000000" sideImage="Ramie.Body_scaled.jpg"/>
+    </TargetSet>
+</VuforiaUnityInfo>
